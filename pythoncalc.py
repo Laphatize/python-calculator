@@ -13,7 +13,7 @@ print("Welcome to Terminal Calculator!")
 # Check if this is users first time.
 startup = input("First Time? (y/n): ")
 if (startup == "y") :
-    print("Enure your numbers are valid and aren't decimals.")
+    print("[PRO TIP] Ensure your numbers are valid and aren't decimals.")
     print("  ")
 
 # Get prompts needed to do computation
@@ -30,7 +30,7 @@ if (operator == "/") : final = str(int(number1)/int(number2))
 
 
 
-
+# Error handling + display final answer.
 try :
     print("  ")
     print("The final answer should be " + final + "!")
@@ -39,5 +39,4 @@ try :
 
 except : print("I don't think you used valid inputs, please try again!")
 
-
-
+ 
